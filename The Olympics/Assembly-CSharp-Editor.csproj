@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{5D2376C7-B81F-B8B8-6984-451236582006}</ProjectGuid>
+	<ProjectGuid>{A90BC5DF-C58D-78C6-42F2-13FB236E5E14}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -47,8 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
-     <None Include="Assets\Scripts\Shaders\ShaderForScoreCounter.shader" />
-     <None Include="Assets\Scripts\Shaders\360Shader.shader" />
+     <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\ShaderForScoreCounter.shader" />
+     <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\360Shader.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
@@ -115,7 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{20CE5E68-7ACC-F23A-0373-CF3572049FD7}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{8C26035D-A211-2CDD-0D9B-205DEC5D2D67}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

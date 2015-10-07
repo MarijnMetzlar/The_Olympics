@@ -13,8 +13,8 @@ public class CameraSwitch : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		movieCamera.enabled = false;
-		roomCamera.enabled = true;
+		movieCamera.enabled = true;
+		roomCamera.enabled = false;
 		scoreBoardCamera.enabled = false;
 
 		//roomCamera.enabled = true;
