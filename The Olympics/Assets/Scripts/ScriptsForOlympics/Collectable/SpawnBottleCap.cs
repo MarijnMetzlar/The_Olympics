@@ -22,6 +22,6 @@ public class SpawnBottleCap : MonoBehaviour {
 			Instantiate (prefabBottleCap, new Vector3 (9.0f, 2.0f, 24.5f), Quaternion.identity);
 		}
 
-		Destroy (gameObject, 5)
+		Destroy (gameObject, 5);
 	}
 }

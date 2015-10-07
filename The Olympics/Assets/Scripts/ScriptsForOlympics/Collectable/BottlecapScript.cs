@@ -14,7 +14,7 @@ public class BottlecapScript : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		transform.Translate (0.0f, 0.1f, 0.0f);
+		//transform.Translate (0.0f, 0.1f, 0.0f);
 		transform.Rotate (Vector3.up, speedy * Time.deltaTime);
 		transform.Rotate (Vector3.one, speedy * Time.deltaTime);
 	}
