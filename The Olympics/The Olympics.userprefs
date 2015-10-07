@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScriptsForOlympics\Scoreboard\ScoreCounter.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScriptsForOlympics\Saving\SaveInformation.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScriptsForOlympics\Scoreboard\ScoreCounter.cs" Line="10" Column="2" />
-      <File FileName="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\ScriptsForOlympics\Saving\LoadInformation.cs" Line="8" Column="62" />
+      <File FileName="Assets\Scripts\ScriptsForOlympics\Saving\SaveInformation.cs" Line="13" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

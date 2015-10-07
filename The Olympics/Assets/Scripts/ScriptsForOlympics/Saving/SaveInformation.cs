@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SaveAndLoad : MonoBehaviour {
+using System.Collections.Generic; 
+using System.Runtime.Serialization.Formatters.Binary; 
+using System.IO;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+public static class SaveInformation
+{
+	public static void SaveAllInformation()
+	{
+		PlayerPrefs.SetFloat ("PLAYERSCORE", ScoreCounter.points);
+
 	}
 }

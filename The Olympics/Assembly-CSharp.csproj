@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\Camera\HackAndSlashCamera.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Movie\movie.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\LoadInformation.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\SaveInformation.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\SavingGameScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\BackToRoomScene.cs" />
