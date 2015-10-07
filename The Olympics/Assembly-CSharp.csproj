@@ -77,6 +77,8 @@
      <Compile Include="Assets\Scripts\Camera\CameraSwitchToMovie.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraSwitchToScoreBoard.cs" />
      <Compile Include="Assets\Scripts\Camera\HackAndSlashCamera.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnBottleCap.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Movie\movie.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\LoadInformation.cs" />
