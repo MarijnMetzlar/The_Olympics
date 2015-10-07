@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpawnBall : MonoBehaviour {
+public class SpawnObjects : MonoBehaviour {
 
 	public Transform prefab1;
 	public Transform prefab2;
@@ -11,13 +11,8 @@ public class SpawnBall : MonoBehaviour {
 
 	public float clickOncePrefab1 = 0.0f;
 	public float clickOncePrefab2 = 0.0f;
-
-	// Use this for initialization
-	void Start () 
-	{
-		
-	}
 	
+
 	// Update is called once per frame
 	void Update () 
 	{

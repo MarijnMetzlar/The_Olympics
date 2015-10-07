@@ -6,17 +6,12 @@ public class ScoreCounter : MonoBehaviour {
 	public string text;
 	public static float points;
 	public float elapsedTime = 0.0f;
-	
-	// Use this for initialization
-	void Start () 
-	{
 
-	}
-	
+
 	// Update is called once per frame
 	void Update () 
 	{
-		points = SpawnBall.score;
+		points = SpawnObjects.score;
 
 		elapsedTime += Time.smoothDeltaTime;
 		if (elapsedTime >= 1.0f) 
