@@ -4,24 +4,24 @@ using System.Collections;
 public class SpawnBottleCap : MonoBehaviour {
 
 	public Transform prefabBottleCap;
-	public float timeOfBottleCap = 0.0f;
+
+	public float bottleCapSpawner = 0.0f;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+	{
+		Instantiate (prefabBottleCap, new Vector3 (Random.Range(-4.6f, 4.6f), -4.2f, Random.Range(1.3f, 6.8f)), Quaternion.identity);
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		timeOfBottleCap = Time.deltaTime;
+		bottleCapSpawner += Time.deltaTime;
 
-		if (timeOfBottleCap > 5.0f) 
+		if (bottleCapSpawner >= 2.0f) 
 		{
-			timeOfBottleCap = 0.0f;
-			Instantiate (prefabBottleCap, new Vector3 (9.0f, 2.0f, 24.5f), Quaternion.identity);
+			bottleCapSpawner = 0.0f;
+			Instantiate (prefabBottleCap, new Vector3 (Random.Range (-4.6f, 4.6f), -4.2f, Random.Range (1.3f, 6.8f)), Quaternion.identity);
 		}
-
-		Destroy (gameObject, 5);
 	}
 }
