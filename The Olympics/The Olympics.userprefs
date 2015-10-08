@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnBottleCap.cs" Line="25" Column="27" />
-      <File FileName="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs" Line="17" Column="5" />
-      <File FileName="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScriptsForOlympics\Movie\movie.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnBottleCap.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" Line="37" Column="77" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

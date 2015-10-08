@@ -47,9 +47,12 @@
   <ItemGroup>
      <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
+     <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
      <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\ShaderForScoreCounter.shader" />
+     <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
      <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\360Shader.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\EasyMovieTexture\readme.txt" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
  <Reference Include="UnityEditor.Advertisements">

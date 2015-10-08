@@ -27,14 +27,14 @@ public class SpawnObjects : MonoBehaviour {
 	{
 		if (score > 5 && score < 15 && clickOncePrefab1 == 0) 
 		{
-			Instantiate (prefab1, new Vector3 (12.0f, 2.5f, Random.Range (21.0f, 25.0f)), Quaternion.identity);
+			Instantiate (prefab1, new Vector3 (10.4f, 2.7f, Random.Range (85.6f, 87.8f)), Quaternion.identity);
 			updatedScore = score - 5;
 			clickOncePrefab1 += 1.0f;
 		}
 
 		if (score > 15 && score < 25 && clickOncePrefab2 == 0) 
 		{
-			Instantiate (prefab2, new Vector3 (12.0f, 2.5f, Random.Range (21.0f, 25.0f)), Quaternion.identity);
+			Instantiate (prefab2, new Vector3 (10.4f, 2.7f, Random.Range (85.6f, 87.8f)), Quaternion.identity);
 			updatedScore = score - 15;
 			clickOncePrefab2 += 1.0f;
 		}

@@ -45,6 +45,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleGUI.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleSphereGUI.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerCtrl.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerFullScreenCtrl.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\VideoCopyTexture.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
@@ -87,9 +93,12 @@
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\BackToRoomScene.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\ScoreCounter.cs" />
      <Compile Include="Assets\Scripts\ScriptsForStartScreen\StartNewGameScript.cs" />
+     <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
      <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\ShaderForScoreCounter.shader" />
+     <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
      <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\360Shader.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\EasyMovieTexture\readme.txt" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
  <Reference Include="UnityEngine.UI">
