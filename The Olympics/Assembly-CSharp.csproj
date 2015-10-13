@@ -82,6 +82,7 @@
      <Compile Include="Assets\Scripts\Camera\CameraSwitch.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraSwitchToMovie.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraSwitchToScoreBoard.cs" />
+     <Compile Include="Assets\Scripts\Camera\FadingChange.cs" />
      <Compile Include="Assets\Scripts\Camera\HackAndSlashCamera.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Bubble\BubbleScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs" />
@@ -92,6 +93,7 @@
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\SaveInformation.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\SavingGameScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\BackToRoomScene.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\DisplayScore.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\ScoreCounter.cs" />
      <Compile Include="Assets\Scripts\ScriptsForStartScreen\StartNewGameScript.cs" />
      <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
@@ -102,11 +104,17 @@
      <None Include="Assets\EasyMovieTexture\readme.txt" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

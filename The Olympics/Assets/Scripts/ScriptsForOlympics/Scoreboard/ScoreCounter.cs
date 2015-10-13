@@ -2,24 +2,29 @@
 using System.Collections;
 
 public class ScoreCounter : MonoBehaviour {
-
-	public string text;
+	
+	public float timerPoints;
 	public static float points;
+	public float changedPoints;
+	public float changedPoints2;
+
 	public float elapsedTime = 0.0f;
 
 
 	// Update is called once per frame
 	void Update () 
 	{
-		points = SpawnObjects.score;
+		changedPoints = SpawnObjects.updatedScore;
+		changedPoints2 = BottlecapScript.updatedScore;
 
-		elapsedTime += Time.smoothDeltaTime;
+		elapsedTime += Time.deltaTime;
+
 		if (elapsedTime >= 1.0f) 
 		{
-			points += 1;
+			timerPoints += 1;
 			elapsedTime = 0.0f;
 		}
 
-		GetComponent<TextMesh>().text = " " + points;
+		points = changedPoints + changedPoints2 + timerPoints;
 	}
 }
