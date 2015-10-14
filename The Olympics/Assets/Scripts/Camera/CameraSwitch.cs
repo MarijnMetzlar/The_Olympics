@@ -5,7 +5,7 @@ public class CameraSwitch : MonoBehaviour {
 	
 	public Camera roomCamera;
 	public Camera movieCamera;
-	public Camera scoreBoardCamera;
+	public Camera VIPCamera;
 
 	private Camera[] cameras;
 	private Camera currentCamera;
@@ -14,8 +14,8 @@ public class CameraSwitch : MonoBehaviour {
 	void Start () 
 	{
 		movieCamera.enabled = true;
-		roomCamera.enabled = false;
-		scoreBoardCamera.enabled = false;
+		//roomCamera.enabled = false;
+		VIPCamera.enabled = false;
 
 		//roomCamera.enabled = true;
 		//movieCamera.enabled = false;
@@ -26,14 +26,7 @@ public class CameraSwitch : MonoBehaviour {
 	{
 		//Input.GetKeyDown (KeyCode.Escape)
 
-		//if (Input.GetKeyDown ("backspace") && movieCamera.enabled == true) 
 		if (Input.GetKeyDown (KeyCode.Escape) && movieCamera.enabled == true) 
-		{
-			ChangeView();
-		}
-
-		//if (Input.GetKeyDown ("backspace") && scoreBoardCamera.enabled == true)
-		if (Input.GetKeyDown (KeyCode.Escape) && scoreBoardCamera.enabled == true) 
 		{
 			ChangeView();
 		}
@@ -41,8 +34,7 @@ public class CameraSwitch : MonoBehaviour {
 
 	void ChangeView	()
 	{
-		roomCamera.enabled = true;
 		movieCamera.enabled = false;
-		scoreBoardCamera.enabled = false;
+		VIPCamera.enabled = true;
 	}
 }

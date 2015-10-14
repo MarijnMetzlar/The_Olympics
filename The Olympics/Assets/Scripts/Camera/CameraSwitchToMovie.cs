@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraSwitchToMovie : MonoBehaviour {
 
 	public Camera movieCamera;
-	public Camera roomCamera;
+	public Camera VIPCamera;
 
 	private Camera currentCamera;
 	private Camera[] cameras;
@@ -14,15 +14,8 @@ public class CameraSwitchToMovie : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		cameras = new Camera[] { movieCamera, roomCamera };
-		currentCamera = roomCamera;
-		OnMouseDown ();
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-
+		cameras = new Camera[] { movieCamera, VIPCamera };
+		currentCamera = VIPCamera;
 	}
 
 	void OnMouseDown ()

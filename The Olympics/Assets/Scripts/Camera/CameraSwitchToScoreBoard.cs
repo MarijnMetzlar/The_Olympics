@@ -19,18 +19,10 @@ public class CameraSwitchToScoreBoard : MonoBehaviour {
 		OnMouseDown ();
 	}
 	
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
-	
 	void OnMouseDown ()
 	{
 		currentCamera.enabled = false;
 		currentCamera = cameras[currentCameraIndex];
 		currentCamera.enabled = true;
-
-//		Application.LoadLevel("The ScoreScreen");
 	}
 }

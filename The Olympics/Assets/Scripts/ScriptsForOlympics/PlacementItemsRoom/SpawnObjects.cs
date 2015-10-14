@@ -20,16 +20,16 @@ public class SpawnObjects : MonoBehaviour {
 
 	void OnMouseDown ()
 	{
-		if (score > 5 && score < 15 && clickOncePrefab1 == 0) 
+		if (score > 5 && clickOncePrefab1 == 0) 
 		{
-			Instantiate (prefab1, new Vector3 (10.4f, 2.7f, Random.Range (85.6f, 87.8f)), Quaternion.identity);
+			Instantiate (prefab1, new Vector3 (11.4f, 2.7f, Random.Range (1190.0f, 1195.0f)), Quaternion.identity);
 			updatedScore += -5.0f;
 			clickOncePrefab1 += 1.0f;
 		}
 
-		if (score > 15 && score < 25 && clickOncePrefab2 == 0) 
+		if (score > 15 && clickOncePrefab2 == 0) 
 		{
-			Instantiate (prefab2, new Vector3 (10.4f, 2.7f, Random.Range (85.6f, 87.8f)), Quaternion.identity);
+			Instantiate (prefab2, new Vector3 (10.4f, 2.7f, Random.Range (1190.0f, 1195.0f)), Quaternion.identity);
 			updatedScore += -15.0f;
 			clickOncePrefab2 += 1.0f;
 		}
