@@ -87,6 +87,8 @@
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Bubble\BubbleScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnBottleCap.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Laptop\ItemScreen1.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Laptop\LaptopChangeScreens.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Movie\movie.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\LoadInformation.cs" />
@@ -95,10 +97,8 @@
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\BackToRoomScene.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\DisplayScore.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\ScoreCounter.cs" />
-     <Compile Include="Assets\Scripts\ScriptsForOlympics\Television\ChangeScreens.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Television\ClickLeftButton.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Television\ClickRightButton.cs" />
-     <Compile Include="Assets\Scripts\ScriptsForStartScreen\StartNewGameScript.cs" />
      <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
      <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\ShaderForScoreCounter.shader" />
      <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
