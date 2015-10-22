@@ -3,6 +3,8 @@ using System.Collections;
 
 public class CameraSwitchToMovie : MonoBehaviour {
 
+	public Transform fading;
+
 	public Camera movieCamera;
 	public Camera VIPCamera;
 
@@ -20,6 +22,8 @@ public class CameraSwitchToMovie : MonoBehaviour {
 
 	void OnMouseDown ()
 	{
+		Instantiate(fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
+
 		currentCamera.enabled = false;
 		currentCamera = cameras[currentCameraIndex];
 		currentCamera.enabled = true;

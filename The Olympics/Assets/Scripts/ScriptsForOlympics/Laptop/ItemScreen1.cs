@@ -20,7 +20,7 @@ public class ItemScreen1 : MonoBehaviour {
 		{
 			updatedScore -= 20.0f;
 			clickOnce += 1.0f;
-			Instantiate (Item1, new Vector3 (4.0f, 2.0f, 1219.2f), Quaternion.identity);
+			Instantiate (Item1, new Vector3 (4.0f, 2.0f, 734.1f), Quaternion.identity);
 		}
 	}
 }

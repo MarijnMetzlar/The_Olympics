@@ -2,32 +2,29 @@
 using System.Collections;
 
 public class CameraSwitch : MonoBehaviour {
-	
-	public Camera roomCamera;
+
 	public Camera movieCamera;
 	public Camera VIPCamera;
 
+	public Transform fading;
+
 	private Camera[] cameras;
 	private Camera currentCamera;
+
 
 	// Use this for initialization
 	void Start () 
 	{
 		movieCamera.enabled = false;
-		//roomCamera.enabled = false;
 		VIPCamera.enabled = true;
-
-		//roomCamera.enabled = true;
-		//movieCamera.enabled = false;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		//Input.GetKeyDown (KeyCode.Escape)
-
 		if (Input.GetKeyDown (KeyCode.Escape) && movieCamera.enabled == true) 
 		{
+			Instantiate(fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
 			ChangeView();
 		}
 	}

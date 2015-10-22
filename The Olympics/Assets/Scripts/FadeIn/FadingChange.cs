@@ -4,23 +4,33 @@ using System.Collections;
 public class FadingChange : MonoBehaviour {
 		
 	public Texture2D fadeInTexture;
-	public float fadeInSpeed = 0.8f;
+	public float fadeInSpeed = 0.5f;
 		
+	private int drawDepth = -1000;
 	private float alpha = 1.0f;
 	private int fadeDir = -1;
+
+	private float elapsedTime = 0.0f;
 		
+
 	void OnGUI()
 	{
 		alpha += fadeDir * fadeInSpeed * Time.deltaTime;
 		alpha = Mathf.Clamp01 (alpha);
 			
 		GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, alpha);
+		GUI.depth = drawDepth;
 		GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), fadeInTexture);
+
+		removeFading ();
 	}
-		
-	public float BeginFade (int direction)
+
+	void removeFading()
 	{
-		fadeDir = direction;
-		return (fadeInSpeed);
+		elapsedTime += Time.deltaTime;
+		if (elapsedTime > 2.0f) 
+		{
+			Destroy(gameObject);
+		}
 	}
 }
