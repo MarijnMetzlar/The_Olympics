@@ -14,7 +14,7 @@ public class ScoreCounter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		changedPoints = BottlecapScript.updatedScore;
+		changedPoints = RaycastVideo.updatedScore;
 		changedPoints2 = ItemScreen1.updatedScore;
 
 		elapsedTime += Time.deltaTime;

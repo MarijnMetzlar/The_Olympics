@@ -20,7 +20,7 @@ public class CameraSwitchToMovie : MonoBehaviour {
 		currentCamera = VIPCamera;
 	}
 
-	void OnMouseDown ()
+	void ChangeToMovie ()
 	{
 		Instantiate(fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
 

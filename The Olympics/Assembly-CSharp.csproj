@@ -84,6 +84,8 @@
      <Compile Include="Assets\Scripts\Camera\CameraSwitchToScoreBoard.cs" />
      <Compile Include="Assets\Scripts\Camera\HackAndSlashCamera.cs" />
      <Compile Include="Assets\Scripts\FadeIn\FadingChange.cs" />
+     <Compile Include="Assets\Scripts\RayCast\Raycast.cs" />
+     <Compile Include="Assets\Scripts\RayCast\RaycastVideo.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Bubble\BubbleScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnBottleCap.cs" />

@@ -22,9 +22,9 @@ public class BottlecapScript : MonoBehaviour
 		}
 	}
 
-	void OnMouseDown()
-	{
-		Destroy (gameObject);
-		updatedScore += 15.0f;
-	}
+//	void OnMouseDown()
+//	{
+//		Destroy (gameObject);
+//		updatedScore += 15.0f;
+//	}
 }
