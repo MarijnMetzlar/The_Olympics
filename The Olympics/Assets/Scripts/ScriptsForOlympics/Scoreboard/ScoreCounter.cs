@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class ScoreCounter : MonoBehaviour {
-	
-	public float timerPoints;
+
 	public static float points;
 	public float changedPoints;
 	public float changedPoints2;
@@ -15,16 +14,8 @@ public class ScoreCounter : MonoBehaviour {
 	void Update () 
 	{
 		changedPoints = RaycastVideo.updatedScore;
-		changedPoints2 = ItemScreen1.updatedScore;
+		changedPoints2 = Raycast.updatedScore;
 
-		elapsedTime += Time.deltaTime;
-
-		if (elapsedTime >= 1.0f) 
-		{
-			timerPoints += 1;
-			elapsedTime = 0.0f;
-		}
-
-		points = changedPoints + changedPoints2 + timerPoints;
+		points = changedPoints + changedPoints2;
 	}
 }

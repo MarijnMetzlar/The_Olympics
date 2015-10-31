@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=iSPjfFEmiXI
+https://www.youtube.com/watch?v=gjFsrVWQaQw
+
+http://bernieroehl.com/360stereoinunity/
+
+http://gamedevelopment.tutsplus.com/tutorials/how-to-save-and-load-your-players-progress-in-unity--cms-20934
+
+https://www.reddit.com/r/Unity3D/comments/39f4gr/fade_inout_effect_while_in_same_scene/
+
+https://github.com/prime31/TransitionKit
+
+https://blackboard.hanze.nl/bbcswebdav/pid-3547049-dt-content-rid-10271614_2/courses/cmvt.1503.gdd-virreal/Lighting.pdf

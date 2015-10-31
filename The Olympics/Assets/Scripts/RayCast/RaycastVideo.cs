@@ -3,8 +3,9 @@ using System.Collections;
 
 public class RaycastVideo : MonoBehaviour {
 
-	public float elapsedTime = 0.0f;
+	public AudioSource focusSoundCollectable;
 
+	public float elapsedTime = 0.0f;
 	public static float updatedScore;
 
 	// Update is called once per frame
@@ -26,6 +27,8 @@ public class RaycastVideo : MonoBehaviour {
 
 				if(elapsedTime > 0.2f)
 				{
+					focusSoundCollectable.Play();
+
 					Destroy (hit.transform.gameObject);
 					updatedScore += 15.0f;
 

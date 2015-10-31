@@ -1,20 +1,14 @@
 fileFormatVersion: 2
-guid: 789f988f241d68f429295ba13b335732
-timeCreated: 1444206150
+guid: 6bcae26a112fde245ad87f3ead8acd18
+timeCreated: 1446037992
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
-    100002: room
-    100004: Sky001
     400000: //RootNode
-    400002: room
-    400004: Sky001
-    2300000: room
-    2300002: //RootNode
-    3300000: room
-    3300002: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: room
     9500000: //RootNode
   materials:
