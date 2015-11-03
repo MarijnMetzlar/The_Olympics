@@ -5,10 +5,11 @@ public class DisplayScore : MonoBehaviour {
 
 	public string text;
 	public static float points;
+	public TextMesh displayedText;
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		GetComponent<TextMesh>().text = " " + ScoreCounter.points;
+		displayedText.text = ScoreCounter.points.ToString();
 	}
 }

@@ -86,9 +86,12 @@
      <Compile Include="Assets\Scripts\FadeIn\FadingChange.cs" />
      <Compile Include="Assets\Scripts\RayCast\Raycast.cs" />
      <Compile Include="Assets\Scripts\RayCast\RaycastVideo.cs" />
-     <Compile Include="Assets\Scripts\ScriptsForOlympics\Bubble\BubbleScript.cs" />
-     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapScript.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapDUscript.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapLRscript.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapZscript.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\GoldenRingScript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnBottleCap.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\SpawnGoldenRing.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Laptop\ItemScreen1.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Laptop\LaptopChangeScreens.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Movie\movie.cs" />
