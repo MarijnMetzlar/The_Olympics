@@ -17,7 +17,7 @@ public class CameraSwitchToMovie : MonoBehaviour {
 	void Start () 
 	{
 		cameras = new Camera[] { movieCamera, VIPCamera };
-		currentCamera = VIPCamera;
+		currentCamera = movieCamera;
 	}
 
 	void ChangeToMovie ()

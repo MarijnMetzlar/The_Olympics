@@ -5,6 +5,7 @@ public class GoldenRingScript : MonoBehaviour {
 
 	public float speedy = 100.0f;
 	public float goldenRingDespawner = 0.0f;
+
 	public static float score;
 	public static float updatedScore;
 	

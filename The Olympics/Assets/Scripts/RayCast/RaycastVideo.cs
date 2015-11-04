@@ -13,10 +13,13 @@ public class RaycastVideo : MonoBehaviour {
 	public float goldenRingTime = 0.0f;
 	public static float updatedScore;
 
+	public AudioSource RingCollected;
+
 	// Update is called once per frame
 	void Update () 
 	{
 		Ray ray = Camera.main.ViewportPointToRay (new Vector3 (0.5f, 0.5f, 0));
+		pointer.material.mainTexture = neutralPointerTexture;
 		Debug.DrawRay (ray.origin, ray.direction * 1000, Color.cyan);
 		
 		RaycastHit hit;
@@ -47,17 +50,12 @@ public class RaycastVideo : MonoBehaviour {
 
 				if(goldenRingTime > 5.0f)
 				{
-					//maybe a sound?
+					RingCollected.Play();
 
 					Destroy (hit.transform.gameObject);
 					ScoreCounter.points += 100.0f;
 					goldenRingTime = 0.0f;
 				}
-			}
-
-			else
-			{
-				pointer.material.mainTexture = neutralPointerTexture;
 			}
 		}
 	}

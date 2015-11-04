@@ -84,8 +84,10 @@
      <Compile Include="Assets\Scripts\Camera\CameraSwitchToScoreBoard.cs" />
      <Compile Include="Assets\Scripts\Camera\HackAndSlashCamera.cs" />
      <Compile Include="Assets\Scripts\FadeIn\FadingChange.cs" />
+     <Compile Include="Assets\Scripts\FadeIn\FadingTransparency.cs" />
      <Compile Include="Assets\Scripts\RayCast\Raycast.cs" />
      <Compile Include="Assets\Scripts\RayCast\RaycastVideo.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Button\ButtonTable.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapDUscript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapLRscript.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Collectable\BottlecapZscript.cs" />
@@ -95,7 +97,8 @@
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Laptop\ItemScreen1.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Laptop\LaptopChangeScreens.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Movie\movie.cs" />
-     <Compile Include="Assets\Scripts\ScriptsForOlympics\PlacementItemsRoom\SpawnObjects.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Robot\Robot.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForOlympics\Robot\RobotText.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\LoadInformation.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\SaveInformation.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Saving\SavingGameScript.cs" />
@@ -104,6 +107,8 @@
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Scoreboard\ScoreCounter.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Television\ClickLeftButton.cs" />
      <Compile Include="Assets\Scripts\ScriptsForOlympics\Television\ClickRightButton.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForStart\FadeIcon.cs" />
+     <Compile Include="Assets\Scripts\ScriptsForStart\ToNextScene.cs" />
      <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
      <None Include="Assets\Scripts\ScriptsForOlympics\Shaders\ShaderForScoreCounter.shader" />
      <None Include="Assets\EasyMovieTexture\Chromakey.shader" />

@@ -6,8 +6,12 @@ public class ClickLeftButton : MonoBehaviour {
 	public GameObject video;
 	public GameObject news;
 
+	public AudioSource clickTV;
+
 	void OnMouseDown () 
 	{
+		clickTV.Play();
+
 		if (ClickRightButton.screenChangeRight == 1.0f)
 		{
 			ClickRightButton.screenChangeRight += 2.0f;

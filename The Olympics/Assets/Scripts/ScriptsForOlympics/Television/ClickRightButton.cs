@@ -7,8 +7,12 @@ public class ClickRightButton : MonoBehaviour {
 	public GameObject news;
 	public static float screenChangeRight = 1.0f;
 
+	public AudioSource clickTV;
+
 	void OnMouseDown () 
 	{
+		clickTV.Play ();
+
 		if (screenChangeRight == 1.0f)
 		{
 			screenChangeRight += 1.0f;

@@ -9,12 +9,15 @@ public class SpawnGoldenRing : MonoBehaviour {
 	
 	void Update () 
 	{
-		goldenRingTimer += Time.deltaTime;
-
-		if (goldenRingTimer >= 50.0f) 
+		if (ButtonTable.clickedButton == true) 
 		{
-			Instantiate (goldenRingPrefab, new Vector3 (Random.Range (-20.0f, 20.0f), -10.0f, Random.Range (-20.0f, 20.0f)), Quaternion.identity);
-			goldenRingTimer = 0.0f;
+			goldenRingTimer += Time.deltaTime;
+
+			if (goldenRingTimer >= 50.0f) 
+			{
+				Instantiate (goldenRingPrefab, new Vector3 (Random.Range (-20.0f, 20.0f), -10.0f, Random.Range (-20.0f, 20.0f)), Quaternion.identity);
+				goldenRingTimer = 0.0f;
+			}
 		}
 	}
 }

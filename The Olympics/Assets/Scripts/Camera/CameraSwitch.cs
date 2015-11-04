@@ -15,8 +15,8 @@ public class CameraSwitch : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		movieCamera.enabled = false;
-		VIPCamera.enabled = true;
+		movieCamera.enabled = true;
+		VIPCamera.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -24,7 +24,8 @@ public class CameraSwitch : MonoBehaviour {
 	{
 		if (Input.GetKeyDown (KeyCode.Escape) && movieCamera.enabled == true) 
 		{
-			Instantiate(fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
+			//FADING
+			//Instantiate(fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
 			ChangeView();
 		}
 	}

@@ -24,13 +24,14 @@ public class Raycast : MonoBehaviour {
 
 	void Start ()
 	{
-		VIPCamera.enabled = true;
-		movieCamera.enabled = false;
+		VIPCamera.enabled = false;
+		movieCamera.enabled = true;
 	}
 	
 	void Update () 
 	{
 		Ray ray = Camera.main.ViewportPointToRay (new Vector3 (0.5f, 0.5f, 0));
+		pointer.material.mainTexture = neutralPointerTexture;
 		Debug.DrawRay (ray.origin, ray.direction * 1000, Color.cyan);
 
 		RaycastHit hit;
@@ -62,8 +63,9 @@ public class Raycast : MonoBehaviour {
 			{
 			//sound
 			focusSoundTV.Play();
+			//FADING
+			//Instantiate (fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
 
-			Instantiate (fading, new Vector3 (0.0f, 0.0f, 0.0f), Quaternion.identity);
 			VIPCamera.enabled = false;
 			movieCamera.enabled = true;
 			timer = 2.0f;
